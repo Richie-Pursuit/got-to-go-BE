@@ -1,0 +1,462 @@
+[
+    {
+      "id": "00000000-0000-0000-32F9-15DD98DB0144",
+      "name": "Arcilla Playground",
+      "address": "Teller Avenue, Park Avenue, Clay Avenue, East 64 Street"
+    },
+    {
+      "id": "00000000-0000-0000-3E2E-FFBEC94292B3",
+      "name": "Behagen Playground",
+      "address": "Tinton Avenue, East 165 Street, Union Avenue, East 166 Street"
+    },
+    {
+      "id": "00000000-0000-0000-496D-A896A59F47BB",
+      "name": "Belmont Playground",
+      "address": "Crotona Avenue, East 181 Street"
+    },
+    {
+      "id": "00000000-0000-0000-E92E-D06BE6BE75B7",
+      "name": "Capt. Rivera Playground",
+      "address": "East 156 Street, Forest Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-9966-8B2748846617",
+      "name": "Clark Playground",
+      "address": "3 Avenue, East 144 Street, East 146 Street"
+    },
+    {
+      "id": "00000000-0000-0000-FBAB-A0DF4B0071C9",
+      "name": "Crotona Park (Pool House)",
+      "address": " 173rd Street and Fulton Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-03DE-61396222E908",
+      "name": "Franz Sigel Park",
+      "address": "East 153 Street, Gerard Avenue, East 151 Street, Walton Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-3A06-CDC7BE6D230E",
+      "name": "Magenta Playground",
+      "address": "Olinville Avenue, Rosewood Street"
+    },
+    {
+      "id": "00000000-0000-0000-7482-99BB4DA08E35",
+      "name": "Mathew Muliner Playground",
+      "address": "Delancy Place, Muliner Avenue, Matthews Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-64BC-EED110024D48",
+      "name": "Millbrook Playground",
+      "address": "East 135 Street, Cypress Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-FF87-5969AFBE9740",
+      "name": "Orchard Beach Pavilion",
+      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson"
+    },
+    {
+      "id": "00000000-0000-0000-30BD-8CFFE7010D3C",
+      "name": "Parkside Playground",
+      "address": "Arnow Avenue, Adee Avenue, Olinville Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-67C7-674F1CEF9C7D",
+      "name": "Pelham Bay Park (Hunter Island Picnic Area)",
+      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson"
+    },
+    {
+      "id": "00000000-0000-0000-CB28-55AD0720EACA",
+      "name": "Pelham Bay Park (Playground for All Children)",
+      "address": "Bruckner Expressway & Buhre Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-1CDC-2B97CC124DF6",
+      "name": "Quarry Ballfields",
+      "address": "Quarry Road, East 181 Street, Oak Place & Hughes Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-D22F-9CB450EBDE8D",
+      "name": "Richman (Echo) Park Playground",
+      "address": "East 178 Street & Ryer Avenue, Upper Level"
+    },
+    {
+      "id": "00000000-0000-0000-DADC-E5D28F5A3308",
+      "name": "Riverbend Playground",
+      "address": "Bailey Avenue, West Kingsbridge Road"
+    },
+    {
+      "id": "00000000-0000-0000-0E0F-7CD93D129065",
+      "name": "St. Mary's Playground East Playground",
+      "address": "Jackson Avenue between East 144 and 145 streets"
+    },
+    {
+      "id": "00000000-0000-0000-0512-1677A22E9255",
+      "name": "Vidalia Park",
+      "address": "Vyse & Daly avenues between West 179-180 streets"
+    },
+    {
+      "id": "00000000-0000-0000-80D4-C94944FB6240",
+      "name": "Albert J. Parham Playground",
+      "address": "Adelphi Street, Clermont, DeKalb & Willoughby avenues"
+    },
+    {
+      "id": "00000000-0000-0000-4675-F24900FA9649",
+      "name": "Carroll Park",
+      "address": "Court & Smith Streets"
+    },
+    {
+      "id": "00000000-0000-0000-AC19-CE6265CAA012",
+      "name": "Coney Island Beach",
+      "address": "Stillwell Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-2816-6CF48F5E7C47",
+      "name": "Coney Island Beach",
+      "address": "West 16th Street"
+    },
+    {
+      "id": "00000000-0000-0000-A9DD-03E6871E7A50",
+      "name": "Coney Island Beach",
+      "address": "W 22 ST."
+    },
+    {
+      "id": "00000000-0000-0000-FF06-EAD08281F209",
+      "name": "Fort Greene Playground",
+      "address": "Myrtle Avenue & St. Edwards Plaza"
+    },
+    {
+      "id": "00000000-0000-0000-070B-6F3299B9BE43",
+      "name": "Fox Playground",
+      "address": "Avenue H, East 54 to E 55 streets"
+    },
+    {
+      "id": "00000000-0000-0000-4CE8-C09434E36B04",
+      "name": "Glenwood Playground",
+      "address": "Ralph Avenue & Farragut Road"
+    },
+    {
+      "id": "00000000-0000-0000-B81E-8F109A5405F6",
+      "name": "Jesse Owens Playground",
+      "address": "Stuyvesant & Lafayette avenues"
+    },
+    {
+      "id": "00000000-0000-0000-506E-F8FD8A2BE133",
+      "name": "Prospect Park (Middle Long Meadow)",
+      "address": "Picnic House"
+    },
+    {
+      "id": "00000000-0000-0000-DC3C-08C17A9E3741",
+      "name": "Prospect Park (The Bandshell)",
+      "address": "Prospect Park West/7th Street/15th Street"
+    },
+    {
+      "id": "00000000-0000-0000-9E88-82739A4BFAEF",
+      "name": "PS 286 Playground",
+      "address": "Avenue Y, between Brown & Haring streets"
+    },
+    {
+      "id": "00000000-0000-0000-2C21-EC8748D17437",
+      "name": "Sternberg Park",
+      "address": "Montrose Avenue, Boerum, Lorimer, Leonard streets"
+    },
+    {
+      "id": "00000000-0000-0000-1868-333BD16125E9",
+      "name": "Tiger Playground",
+      "address": "Evergreen Avenue & Eldert Street"
+    },
+    {
+      "id": "00000000-0000-0000-24A6-B782E02AC0B9",
+      "name": "Underwood Park",
+      "address": "Lafayette & Waverly avenues"
+    },
+    {
+      "id": "00000000-0000-0000-5B89-158DE5348937",
+      "name": "Washington Hall Playground",
+      "address": "Park, Washington avenues to Hall Street"
+    },
+    {
+      "id": "00000000-0000-0000-BA12-B569A576564E",
+      "name": "Yak Playground",
+      "address": "Avenue Y between Coyle & Batchelder streets"
+    },
+    {
+      "id": "00000000-0000-0000-760A-269901061485",
+      "name": "Carl Schurz Park",
+      "address": "East 84 Street & East End Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-B8CC-DF450FFBE235",
+      "name": "Central Park (Dana Discovery Center)",
+      "address": "110th Street between Fifth Avenue and Malcolm X Boulevard"
+    },
+    {
+      "id": "00000000-0000-0000-C13B-7A705C905762",
+      "name": "Central Park Delacorte Comfort Station",
+      "address": "Mid-Park at 80th Street"
+    },
+    {
+      "id": "00000000-0000-0000-9FFB-F084E7F22C8A",
+      "name": "Central Park (Lasker)",
+      "address": "Central Park at 107th Street"
+    },
+    {
+      "id": "00000000-0000-0000-F73F-917160BAA9B6",
+      "name": "Central Park (North Meadow Recreation Center)",
+      "address": "Mid-park at 97th Street"
+    },
+    {
+      "id": "00000000-0000-0000-6793-0F3CED5C227F",
+      "name": "Central Park (Wollman Rink)",
+      "address": "Center Drive to East Drive (including Gapstow Bridge)"
+    },
+    {
+      "id": "00000000-0000-0000-2A33-B0ECB6495A20",
+      "name": "Chelsea Recreation Center",
+      "address": "South of West 25 Street, 9 to 10 avenues"
+    },
+    {
+      "id": "00000000-0000-0000-7D3B-2679674F990D",
+      "name": "Columbus Park",
+      "address": "Baxter, Mulberry, Bayard & Worth streets"
+    },
+    {
+      "id": "00000000-0000-0000-93DC-2F164C746AA2",
+      "name": "Fort Tryon Park (Anne Loftus Playground)",
+      "address": "Broadway & Dyckman Street"
+    },
+    {
+      "id": "00000000-0000-0000-1633-356EAE1AF691",
+      "name": "Fort Washington Park (Lily Brown Playground)",
+      "address": "West 162 Street, east of Riverside Drive"
+    },
+    {
+      "id": "00000000-0000-0000-2647-95FDEDD003AD",
+      "name": "Hamilton Fish Park (Recreation Center)",
+      "address": "Between East Houston & Stanton streets"
+    },
+    {
+      "id": "00000000-0000-0000-F3B8-582D98D59E8B",
+      "name": "J. Hood Wright Park",
+      "address": "Ft. Washington & Haven avenues, West 173 Street"
+    },
+    {
+      "id": "00000000-0000-0000-03E0-B3093CC2B028",
+      "name": "Jackie Robinson Park (Recreation Center)",
+      "address": "Bradhurst & Edgecombe avenues,West 145 to West 155 streets"
+    },
+    {
+      "id": "00000000-0000-0000-40B5-9EABD4A97CE6",
+      "name": "Morningside Park",
+      "address": "West 123 Street & Morningside Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-E03F-E11F35DBC23C",
+      "name": "Riverside Park (Café)",
+      "address": "105th Street, next to Henry Hudson Parkway"
+    },
+    {
+      "id": "00000000-0000-0000-32CE-8E3A8B53C061",
+      "name": "Sara D. Roosevelt Park",
+      "address": "East Houston Street to Canal Street"
+    },
+    {
+      "id": "00000000-0000-0000-C103-A05EB51760E5",
+      "name": "Vesuvio Playground",
+      "address": "Spring & Thompson streets"
+    },
+    {
+      "id": "00000000-0000-0000-D14B-4F599A6361DA",
+      "name": "Bayside Fields",
+      "address": "204 Street & 29 Avenue, Clearview Expressway"
+    },
+    {
+      "id": "00000000-0000-0000-9BEA-07D1C878A6E0",
+      "name": "Cunningham Park (HQ8)",
+      "address": "South of Union Turnpike, between Francis Lewis Boulevard & 193rd Street"
+    },
+    {
+      "id": "00000000-0000-0000-8BA0-465110B46E78",
+      "name": "Flushing Meadows Corona Park (Passerelle)",
+      "address": "Unisphere Fountain to pool, at Meridian Road"
+    },
+    {
+      "id": "00000000-0000-0000-C289-D0389C001CBD",
+      "name": "Flushing Meadows Corona Park (Playground for All Children) ",
+      "address": "111 Street and Corona Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-824E-9762F64F9E6E",
+      "name": "Flushing Meadows Corona Park (Zoo, Ballfields)",
+      "address": "Grand Central Parkway to 111th Street to Heckscher Children Farm to Playground for All Children"
+    },
+    {
+      "id": "00000000-0000-0000-3926-C60A708A0904",
+      "name": "Juniper Valley Park",
+      "address": "Lutheran Avenue; North and South Juniper boulevards; and the pathway from 76th Street on north end to 75th Street on south end"
+    },
+    {
+      "id": "00000000-0000-0000-37C6-3E1E06DEE336",
+      "name": "Lawerence Virgilio Playground",
+      "address": "39 Drive & 54 Street"
+    },
+    {
+      "id": "00000000-0000-0000-9293-D64086384BEF",
+      "name": "Michaelis-Bayswater Park",
+      "address": "Beach Channel Drive, B 32 Street, Dwight Avenue, Norton Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-0D0A-7D4A50F72229",
+      "name": "Arrochar Playground",
+      "address": "Sand Lane, Major Avenue, McFarland Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-56A2-FF5E3915FE79",
+      "name": "Blood Root Valley (Greenbelt Nature Center)",
+      "address": "Rockland, Manor and Brielle avenues, Forest Hill Road"
+    },
+    {
+      "id": "00000000-0000-0000-4923-A7837836B372",
+      "name": "Blood Root Valley (Park House)",
+      "address": "Rockland, Manor and Brielle avenues, Forest Hill Road"
+    },
+    {
+      "id": "00000000-0000-0000-69AC-BD8191D95D0B",
+      "name": "Blue Heron Park Preserve (Nature Center)",
+      "address": "Poillon Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-F27A-2926828353B1",
+      "name": "Corporal Thompson Park/West Brighton Pool",
+      "address": "Broadway, Henderson Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-CC1B-F143ED785CBE",
+      "name": "Double Nickel Playground",
+      "address": "Osborne Street and Preston Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-C747-38D91444FF0E",
+      "name": "Grandview Playground",
+      "address": "Grandview Avenue, Continental Place"
+    },
+    {
+      "id": "00000000-0000-0000-FA9C-07B7029AC7A7",
+      "name": "High Rock Park (McArthur Park)",
+      "address": "Richmond Parkway & Moravian Cemetery at Rockland Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-55E1-2C9A134F8B71",
+      "name": "Joline Pool Playground (Modular Equipment)",
+      "address": "Joline Avenue, Hylan Boulevard"
+    },
+    {
+      "id": "00000000-0000-0000-EB5A-5BA91A3A0D1A",
+      "name": "Lyons Pool",
+      "address": "Pier 6, Victory Boulevard"
+    },
+    {
+      "id": "00000000-0000-0000-C4EF-C8F84624DEFB",
+      "name": "Markham Playground",
+      "address": "Willowbrook Parkway, Forest Avenue & Houston Street"
+    },
+    {
+      "id": "00000000-0000-0000-A01C-7FAD02B4B697",
+      "name": "Midland Beach & Boardwalk",
+      "address": "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard"
+    },
+    {
+      "id": "00000000-0000-0000-1410-242F2F064167",
+      "name": "Midland Field",
+      "address": "Midland Avenue & Mason Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-8D69-CAA9D536302C",
+      "name": "South Beach (Saturn Playground)",
+      "address": "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard"
+    },
+    {
+      "id": "00000000-0000-0000-EB7A-0D7AF4BDCA54",
+      "name": "Stapleton Playground",
+      "address": "Tompkins Avenue & Broad Street"
+    },
+    {
+      "id": "00000000-0000-0000-A5B7-D60526D4D90D",
+      "name": "Terrace Playground",
+      "address": "Howard Avenue & Martha Street"
+    },
+    {
+      "id": "00000000-0000-0000-4B0F-AF44763ACBA4",
+      "name": "Todt Hill Playground",
+      "address": "Schmidts Lane & Manor Road"
+    },
+    {
+      "id": "00000000-0000-0000-83F4-77EC730C8C1D",
+      "name": "Coney Island",
+      "address": "Brighton 2nd"
+    },
+    {
+      "id": "00000000-0000-0000-56BB-A491EE9587D2",
+      "name": "Coney Island",
+      "address": "W 27 ST."
+    },
+    {
+      "id": "00000000-0000-0000-204E-32328C3E8AB6",
+      "name": "Coney Island",
+      "address": "W 33 St."
+    },
+    {
+      "id": "00000000-0000-0000-9C2A-C62A003C4CEC",
+      "name": "Marine Park Nature Center",
+      "address": "East 33rd Street and Avenue U"
+    },
+    {
+      "id": "00000000-0000-0000-B3FD-84E81CA23BFC",
+      "name": "Bendheim Playground",
+      "address": "100th Street and Fifth Ave"
+    },
+    {
+      "id": "00000000-0000-0000-5D8E-AA01A3150446",
+      "name": "Liberty Pool",
+      "address": "173rd Street and 106th Avenue"
+    },
+    {
+      "id": "00000000-0000-0000-9928-A39BCBBB5692",
+      "name": "Ederle Comfort Station",
+      "address": null
+    },
+    {
+      "id": "00000000-0000-0000-0AF1-39D6619AF4CD",
+      "name": "Rockaway Beach 86 Comfort Station",
+      "address": "Beach 86 Street"
+    },
+    {
+      "id": "00000000-0000-0000-30B6-D8170C1618EF",
+      "name": "Rockaway Beach 97 Comfort Station",
+      "address": "Beach 97 Street"
+    },
+    {
+      "id": "00000000-0000-0000-7D9B-39A5066431F5",
+      "name": "Rockaway Beach 106 Comfort Station",
+      "address": "Beach 106 Street"
+    },
+    {
+      "id": "00000000-0000-0000-7B4C-B6AECECFF1C4",
+      "name": "Rockaway Beach 117th L/G",
+      "address": "Beach 117 Street"
+    },
+    {
+      "id": "00000000-0000-0000-EBD8-F4B1FC8B6F7B",
+      "name": "Bloomingdale Park",
+      "address": "Richmond Pkwy, Bloomingdale Rd., Lenevar Ave"
+    },
+    {
+      "id": "00000000-0000-0000-D663-1D314B73A9A9",
+      "name": "Conference House Park",
+      "address": "Pittsville St,Hylan Blvd.,Surf,Richard Aves"
+    },
+    {
+      "id": "00000000-0000-0000-C3BF-76D2BD60EE2B",
+      "name": "South Beach Wetlands",
+      "address": "Quintard St Bet. Quincy Ave & Father Capodanno Blvd"
+    }
+  ]
