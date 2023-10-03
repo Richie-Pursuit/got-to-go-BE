@@ -1,23 +1,24 @@
 const express = require('express');
-const bathrooms = express.Router();
+const bathrooms_table  = express.Router();
 
 const {
   getAllBathrooms,
   getOneBathroom,
-  getBathroomName
+  getBathroomName,
+  getBathroomByZipcode
 } = require('../Queries/bathrooms');
 
-bathrooms.get('/', async (req, res) => {
+bathrooms_table.get('/', async (req, res) => {
     const allBathrooms = await getAllBathrooms();
-    if (allBathrooms) {
+    if (allBathrooms[0]) {
       res.status(200).json(allBathrooms);
     } else {
-      res.status(500).json({ error: 'Unable to get all bulletin posts' });
+      res.status(500).json({ error: 'Unable to get all bathrooms' });
     }
   });
 
-  bathrooms.get('/:id', async(req, res)=>{
-    const id = req.params.id
+  bathrooms_table.get('/:id', async(req, res)=>{
+    const { id } = req.params
     const oneBathroom = await getOneBathroom(id);
     if(oneBathroom){
       res.status(200).json(oneBathroom)
@@ -27,8 +28,8 @@ bathrooms.get('/', async (req, res) => {
     }
   })
 
-  bathrooms.get('/name/:name', async(req, res)=>{
-    const name= req.params.name
+  bathrooms_table .get('/name/:name', async(req, res)=>{
+    const { name }= req.params
     const bathroomName = await getBathroomName(name);
     if(bathroomName){
       res.status(200).json(bathroomName);
@@ -37,5 +38,20 @@ bathrooms.get('/', async (req, res) => {
       res.status(500).json({error: 'unable to get bathroom name'})
     }
   })
+
+  bathrooms_table .get('/zipcode/:zipcode', async(req, res)=>{
+    const { zipcode }= req.params
+    const bathroomZipcode= await getBathroomByZipcode(zipcode);
+    if(bathroomZipcode){
+      res.status(200).json(bathroomZipcode);
+    }
+    else{
+      res.status(500).json({error: 'unable to get bathroom name'})
+    }
+  })
+
+
+
   
-  module.exports = bathrooms;
+  
+  module.exports = bathrooms_table ;

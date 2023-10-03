@@ -2,461 +2,869 @@
     {
       "id": "00000000-0000-0000-32F9-15DD98DB0144",
       "name": "Arcilla Playground",
-      "address": "Teller Avenue, Park Avenue, Clay Avenue, East 64 Street"
+      "address": "E 164 St bet. Teller Av and Clay Av at Park Ave ",
+      "city": "Bronx",
+      "zipcode":10456,
+      "coordinates": {
+        "latitude": 40.827236569329436, 
+        "longitude": -73.91448436133791
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-3E2E-FFBEC94292B3",
-      "name": "Behagen Playground",
-      "address": "Tinton Avenue, East 165 Street, Union Avenue, East 166 Street"
+      "name": "Basil Behagen Playground",
+      "address": "1054 Tinton Ave ",
+      "city": "Bronx",
+      "zipcode":10456,
+      "coordinates": {
+        "latitude": 40.82615157818566,  
+        "longitude": -73.90134603068796
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-496D-A896A59F47BB",
-      "name": "Belmont Playground",
-      "address": "Crotona Avenue, East 181 Street"
+      "name": "Belmont Playground Public Restroom",
+      "address": "E. 182nd Street & Grote Street",
+      "city": "Bronx",
+      "zipcode":10457,
+      "coordinates": {
+        "latitude": 40.85100076130007, 
+        "longitude": -73.88774573278832  
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-E92E-D06BE6BE75B7",
       "name": "Capt. Rivera Playground",
-      "address": "East 156 Street, Forest Avenue"
+      "address": "East 156 Street, Forest Avenue",
+      "city": "Bronx",
+      "zipcode":10455,
+      "coordinates": {
+        "latitude": 40.81841900093192,  
+        "longitude": -73.906772  
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-9966-8B2748846617",
       "name": "Clark Playground",
-      "address": "3 Avenue, East 144 Street, East 146 Street"
+      "address": "3 Avenue, East 144 Street, East 146 Street",
+      "city": "Bronx",
+      "zipcode":10454,
+      "coordinates": {
+        "latitude": 40.81390479967575, 
+        "longitude": -73.92136012884984
+      },
+      "image": ""
+       
     },
     {
       "id": "00000000-0000-0000-FBAB-A0DF4B0071C9",
       "name": "Crotona Park (Pool House)",
-      "address": " 173rd Street and Fulton Avenue"
+      "address": " 1700 Fulton Avenue",
+      "city": "Bronx",
+      "zipcode":10457,
+      "coordinates": {
+        "latitude": 40.84072927132554, 
+        "longitude": -73.89791126931203
+      },
+      "image": ""
     },
+     
     {
       "id": "00000000-0000-0000-03DE-61396222E908",
       "name": "Franz Sigel Park",
-      "address": "East 153 Street, Gerard Avenue, East 151 Street, Walton Avenue"
+      "address": "East 153rd Street and Grand Concourse",
+      "city": "Bronx",
+      "zipcode":10451,
+      "coordinates": {
+        "latitude": 40.82140689120854,
+        "longitude": -73.92586577672785
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-3A06-CDC7BE6D230E",
       "name": "Magenta Playground",
-      "address": "Olinville Avenue, Rosewood Street"
+      "address": "Olinville Avenue, Rosewood Street",
+      "city": "Bronx",
+      "zipcode":10467,
+      "coordinates": {
+        "latitude": 40.87382233143944, 
+        "longitude": -73.86789185035323
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-7482-99BB4DA08E35",
       "name": "Mathew Muliner Playground",
-      "address": "Delancy Place, Muliner Avenue, Matthews Avenue"
+      "address": "Delancy Place, Muliner Avenue, Matthews Avenue",
+      "city": "Bronx",
+      "zipcode":10462,
+      "coordinates": {
+        "latitude": 40.847110875055094, 
+        "longitude": -73.86159191539826 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-64BC-EED110024D48",
       "name": "Millbrook Playground",
-      "address": "East 135 Street, Cypress Avenue"
+      "address": "E. 135 St. bet. Cypress Ave. and St Ann's Ave",
+      "city": "Bronx",
+      "zipcode":10454,
+      "coordinates": {
+        "latitude": 40.804519822645624, 
+        "longitude": -73.91630069264197
+      },
+      "image": ""
     },
+     
     {
       "id": "00000000-0000-0000-FF87-5969AFBE9740",
       "name": "Orchard Beach Pavilion",
-      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson"
+      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson",
+      "city": "Bronx",
+      "zipcode":10461,
+      "coordinates": {
+        "latitude": 40.866132835868804,
+        "longitude": -73.79285245781433
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-30BD-8CFFE7010D3C",
       "name": "Parkside Playground",
-      "address": "Arnow Avenue, Adee Avenue, Olinville Avenue"
+      "address": "Arnow Avenue, Adee Avenue, Olinville Avenue",
+      "city": "Bronx",
+      "zipcode":10467,
+      "coordinates": {
+        "latitude": 40.86849776645654, 
+        "longitude": -73.86800738823852
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-67C7-674F1CEF9C7D",
       "name": "Pelham Bay Park (Hunter Island Picnic Area)",
-      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson"
+      "address": "Bruckner Boulevard, Eastchester Bay, Hutchinson",
+      "city": "Bronx",
+      "zipcode":10464,
+      "coordinates": {
+        "latitude": 40.87658201208404, 
+        "longitude": -73.78984987737113
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-CB28-55AD0720EACA",
       "name": "Pelham Bay Park (Playground for All Children)",
-      "address": "Bruckner Expressway & Buhre Avenue"
+      "address": "5001, 3533 Bruckner Blvd",
+      "city": "Bronx",
+      "zipcode":10461,
+      "coordinates": {
+        "latitude": 40.84854664131494, 
+        "longitude": -73.82505190069837
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-1CDC-2B97CC124DF6",
       "name": "Quarry Ballfields",
-      "address": "Quarry Road, East 181 Street, Oak Place & Hughes Avenue"
+      "address": "Quarry Road, East 181 Street, Oak Place & Hughes Avenue",
+      "city": "Bronx",
+      "zipcode":10457,
+      "coordinates": {
+        "latitude": 40.851098838842795, 
+        "longitude": -73.89096027123288
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-D22F-9CB450EBDE8D",
       "name": "Richman (Echo) Park Playground",
-      "address": "East 178 Street & Ryer Avenue, Upper Level"
+      "address": "East 178 Street & Ryer Avenue, Upper Level",
+      "city": "Bronx",
+      "zipcode":10457,
+      "coordinates": {
+        "latitude": 40.849856048639914, 
+        "longitude": -73.90184227677427
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-DADC-E5D28F5A3308",
       "name": "Riverbend Playground",
-      "address": "Bailey Avenue, West Kingsbridge Road"
+      "address": "Bailey Avenue, West Kingsbridge Road",
+      "city": "Bronx",
+      "zipcode":10463,
+      "coordinates": {
+        "latitude": 40.87195343870423, 
+        "longitude": -73.90598779054217
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-0E0F-7CD93D129065",
       "name": "St. Mary's Playground East Playground",
-      "address": "Jackson Avenue between East 144 and 145 streets"
+      "address": "Jackson Avenue between East 144th and 145th streets",
+      "city": "Bronx",
+      "zipcode":10454,
+      "coordinates": {
+        "latitude": 40.81151084785567,
+        "longitude": -73.91435600514448
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-0512-1677A22E9255",
       "name": "Vidalia Park",
-      "address": "Vyse & Daly avenues between West 179-180 streets"
+      "address": "Vyse & Daly avenues between West 179-180 streets",
+      "city": "Bronx",
+      "zipcode":10460,
+      "coordinates": {
+        "latitude": 40.8439626608344, 
+        "longitude": -73.88137051538203
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-80D4-C94944FB6240",
       "name": "Albert J. Parham Playground",
-      "address": "Adelphi Street, Clermont, DeKalb & Willoughby avenues"
+      "address": "Adelphi Street, Clermont, DeKalb & Willoughby avenues",
+      "city": "Brooklyn",
+      "zipcode":11205,
+      "coordinates": {
+        "latitude": 40.690383075377596, 
+        "longitude": -73.9708742442382
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-4675-F24900FA9649",
       "name": "Carroll Park",
-      "address": "Court & Smith Streets"
+      "address": "Court & Smith Streets",
+      "city": "Brooklyn",
+      "zipcode":11231,
+      "coordinates": {
+        "latitude": 40.6810997172574, 
+        "longitude": -73.99543520005702 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-AC19-CE6265CAA012",
-      "name": "Coney Island Beach",
-      "address": "Stillwell Avenue"
+      "name": "Stillwell Ave. Public Restroom",
+      "address": "Boardwalk between W. 10th St. & Stillwell Ave.",
+      "city": "Brooklyn",
+      "zipcode":11224,
+      "coordinates": {
+        "latitude": 40.573386969353116, 
+        "longitude": -73.97807666754335
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-2816-6CF48F5E7C47",
       "name": "Coney Island Beach",
-      "address": "West 16th Street"
+      "address": "Boardwalk at West 16th Street",
+      "city": "Brooklyn",
+      "zipcode":11224,
+      "coordinates": {
+        "latitude": 40.57284700516166, 
+        "longitude": -73.98285286019943
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-A9DD-03E6871E7A50",
       "name": "Coney Island Beach",
-      "address": "W 22 ST."
+      "address": "Riegelmann Boardwalk, near W. 22nd St.",
+      "city": "Brooklyn",
+      "zipcode":11224,
+      "coordinates": {
+        "latitude": 40.57227016897085, 
+        "longitude": -73.98811373860609
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-FF06-EAD08281F209",
       "name": "Fort Greene Playground",
-      "address": "Myrtle Avenue & St. Edwards Plaza"
+      "address": "Myrtle Avenue & St. Edwards Plaza",
+      "city": "Brooklyn",
+      "zipcode":11201,
+      "coordinates": {
+        "latitude": 40.69235124774849, 
+        "longitude": -73.97721504700343
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-070B-6F3299B9BE43",
       "name": "Fox Playground",
-      "address": "Avenue H, East 54 to E 55 streets"
+      "address": "Avenue H, East 54 to E 55 streets",
+      "city": "Brooklyn",
+      "zipcode":11234,
+      "coordinates": {
+        "latitude": 40.63248953146566, 
+        "longitude": -73.92408968015114 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-4CE8-C09434E36B04",
       "name": "Glenwood Playground",
-      "address": "Ralph Avenue & Farragut Road"
+      "address": "Ralph Avenue & Farragut Road",
+      "city": "Brooklyn",
+      "zipcode":11234,
+      "coordinates": {
+        "latitude": 40.63676781936786, 
+        "longitude": -73.91995860704431
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-B81E-8F109A5405F6",
       "name": "Jesse Owens Playground",
-      "address": "Stuyvesant & Lafayette avenues"
+      "address": "Stuyvesant & Lafayette avenues",
+      "city": "Brooklyn",
+      "zipcode":11221,
+      "coordinates": {
+        "latitude": 40.69132342551639, 
+        "longitude": -73.93238750727055
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-506E-F8FD8A2BE133",
       "name": "Prospect Park (Middle Long Meadow)",
-      "address": "Picnic House"
+      "address": "Picnic House 40 West Dr",
+      "city": "Brooklyn",
+      "zipcode":11215,
+      "coordinates": {
+        "latitude": 40.66553692971157, 
+        "longitude": -73.97157373495884
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-DC3C-08C17A9E3741",
       "name": "Prospect Park (The Bandshell)",
-      "address": "Prospect Park West/7th Street/15th Street"
+      "address": "Prospect Park West/7th Street/15th Street",
+      "city": "Brooklyn",
+      "zipcode":11215,
+      "coordinates": {
+        "latitude": 40.663565701113725, 
+        "longitude": -73.97647060368233 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-9E88-82739A4BFAEF",
       "name": "PS 286 Playground",
-      "address": "Avenue Y, between Brown & Haring streets"
+      "address": "Avenue Y, between Brown & Haring streets",
+      "city": "Brooklyn",
+      "zipcode":11235,
+      "coordinates": {
+        "latitude": 40.591053411267, 
+        "longitude": -73.938493395615
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-2C21-EC8748D17437",
       "name": "Sternberg Park",
-      "address": "Montrose Avenue, Boerum, Lorimer, Leonard streets"
+      "address": "Montrose Avenue, Boerum, Lorimer, Leonard streets",
+      "city": "Brooklyn",
+      "zipcode":11206,
+      "coordinates": {
+        "latitude": 40.70581835376487, 
+        "longitude":  -73.94721596780614
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-1868-333BD16125E9",
       "name": "Tiger Playground",
-      "address": "Evergreen Avenue & Eldert Street"
+      "address": "Evergreen Avenue & Eldert Street",
+      "city": "Brooklyn",
+      "zipcode":11207,
+      "coordinates": {
+        "latitude": 40.688025081990084, 
+        "longitude": -73.91117267249037
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-24A6-B782E02AC0B9",
       "name": "Underwood Park",
-      "address": "Lafayette & Waverly avenues"
+      "address": "Lafayette & Waverly avenues",
+      "city": "Brooklyn",
+      "zipcode":11205,
+      "coordinates": {
+        "latitude": 40.6884321983801,
+        "longitude": -73.96642433678622
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-5B89-158DE5348937",
       "name": "Washington Hall Playground",
-      "address": "Park, Washington avenues to Hall Street"
+      "address": "Park, Washington avenues to Hall Street",
+      "city": "Brooklyn",
+      "zipcode":11205,
+      "coordinates": {
+        "latitude": 40.69519086487345, 
+        "longitude": -73.9669053080874
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-BA12-B569A576564E",
       "name": "Yak Playground",
-      "address": "Avenue Y between Coyle & Batchelder streets"
+      "address": "Avenue Y between Coyle & Batchelder streets",
+      "city": "Brooklyn",
+      "zipcode":11235,
+      "coordinates": {
+        "latitude": 40.592459561914545, 
+        "longitude": -73.93577666442812
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-760A-269901061485",
       "name": "Carl Schurz Park",
-      "address": "East 84 Street & East End Avenue"
+      "address": "East 84 Street & East End Avenue",
+      "city": "Manhattan",
+      "zipcode":10028,
+      "coordinates": {
+        "latitude": 40.77571514837693, 
+        "longitude": -73.94390919826354
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-B8CC-DF450FFBE235",
       "name": "Central Park (Dana Discovery Center)",
-      "address": "110th Street between Fifth Avenue and Malcolm X Boulevard"
+      "address": "110th Street between Fifth Avenue and Malcolm X Boulevard",
+      "city": "Manhattan",
+      "zipcode":10029,
+      "coordinates": {
+        "latitude": 40.797131437425, 
+        "longitude": -73.95142913604435 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-C13B-7A705C905762",
       "name": "Central Park Delacorte Comfort Station",
-      "address": "Mid-Park at 80th Street"
+      "address": "Mid-Park at 80th Street",
+      "city": "Manhattan",
+      "zipcode":10024,
+      "coordinates": {
+        "latitude": 40.780201268978786, 
+        "longitude": -73.96917306260266 
+      },
+      "image": ""
     },
+    {
+        "id": "00000000-0000-0000-C13B-7A705C905763",
+        "name": "Central Park Merchant's Comfort Station",
+        "address": "W 61st & Central Park West",
+        "city": "Manhattan",
+        "zipcode":10019,
+        "coordinates": {
+          "latitude": 40.76912010977503, 
+          "longitude": -73.98071239936559 
+        },
+        "image": ""
+      },
     {
       "id": "00000000-0000-0000-9FFB-F084E7F22C8A",
       "name": "Central Park (Lasker)",
-      "address": "Central Park at 107th Street"
+      "address": "Central Park at W 107th Street",
+      "city": "Manhattan",
+      "zipcode":10029,
+      "coordinates": {
+        "latitude": 40.796455,
+        "longitude": -73.954610 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-F73F-917160BAA9B6",
       "name": "Central Park (North Meadow Recreation Center)",
-      "address": "Mid-park at 97th Street"
+      "address": "Mid-park at 97th Street",
+      "city": "Manhattan",
+      "zipcode":10128,
+      "coordinates": {
+        "latitude": 40.79113050207897, 
+        "longitude": -73.95927664103533
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-6793-0F3CED5C227F",
       "name": "Central Park (Wollman Rink)",
-      "address": "Center Drive to East Drive (including Gapstow Bridge)"
+      "address": "Center Drive to East Drive (including Gapstow Bridge)",
+      "city": "Manhattan",
+      "zipcode":10019,
+      "coordinates": {
+        "latitude": 40.767758994214724, 
+        "longitude": -73.97446498599189
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-2A33-B0ECB6495A20",
-      "name": "Chelsea Recreation Center",
-      "address": "South of West 25 Street, 9 to 10 avenues"
+      "name": "Chelsea Park Public Restroom",
+      "address": "West 27 Street & 9 Avenue",
+      "city": "Manhattan",
+      "zipcode":10001,
+      "coordinates": {
+        "latitude": 40.749872833185655, 
+        "longitude": -74.00083105141937
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-7D3B-2679674F990D",
       "name": "Columbus Park",
-      "address": "Baxter, Mulberry, Bayard & Worth streets"
+      "address": "Baxter, Mulberry, Bayard & Worth streets",
+      "city": "Manhattan",
+      "zipcode":10013,
+      "coordinates": {
+        "latitude": 40.71485508166657, 
+        "longitude": -74.00009058352617
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-93DC-2F164C746AA2",
       "name": "Fort Tryon Park (Anne Loftus Playground)",
-      "address": "Broadway & Dyckman Street"
+      "address": "Broadway & Riverside Dr",
+      "city": "Manhattan",
+      "zipcode":10045,
+      "coordinates": {
+        "latitude": 40.86515101612548, 
+        "longitude": -73.92939564961662
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-1633-356EAE1AF691",
       "name": "Fort Washington Park (Lily Brown Playground)",
-      "address": "West 162 Street, east of Riverside Drive"
+      "address": "915 Riverside Drive",
+      "city": "Manhattan",
+      "zipcode":10032,
+      "coordinates": {
+        "latitude": 40.83889398458559, 
+        "longitude": -73.94600674597581
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-2647-95FDEDD003AD",
       "name": "Hamilton Fish Park (Recreation Center)",
-      "address": "Between East Houston & Stanton streets"
+      "address": "Between East Houston & Stanton streets",
+      "city": "Manhattan",
+      "zipcode":10032,
+      "coordinates": {
+        "latitude": 40.83889398458559, 
+        "longitude": -73.94600674597581
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-F3B8-582D98D59E8B",
       "name": "J. Hood Wright Park",
-      "address": "Ft. Washington & Haven avenues, West 173 Street"
+      "address": "Ft. Washington & Haven avenues, West 173 Street",
+      "city": "Manhattan",
+      "zipcode":10033,
+      "coordinates": {
+        "latitude": 40.8460270271342, 
+        "longitude": -73.94085597541167
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-03E0-B3093CC2B028",
       "name": "Jackie Robinson Park (Recreation Center)",
-      "address": "Bradhurst & Edgecombe avenues,West 145 to West 155 streets"
+      "address": "Bradhurst Ave & 152nd st",
+      "city": "Manhattan",
+      "zipcode":10039,
+      "coordinates": {
+        "latitude": 40.82792669541592, 
+        "longitude": -73.93993884337391
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-40B5-9EABD4A97CE6",
       "name": "Morningside Park",
-      "address": "West 123 Street & Morningside Avenue"
+      "address": "West 123 Street & Morningside Avenue",
+      "city": "Manhattan",
+      "zipcode":10027,
+      "coordinates": {
+        "latitude": 40.80997944810135, 
+        "longitude": -73.95596132044932
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-E03F-E11F35DBC23C",
       "name": "Riverside Park (Café)",
-      "address": "105th Street, next to Henry Hudson Parkway"
+      "address": "105th Street, next to Henry Hudson Parkway",
+      "city": "Manhattan",
+      "zipcode":10025,
+      "coordinates": {
+        "latitude": 40.80254268546625, 
+        "longitude": -73.97194010829591
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-32CE-8E3A8B53C061",
       "name": "Sara D. Roosevelt Park",
-      "address": "East Houston Street to Canal Street"
+      "address": "East Houston Street to Canal Street",
+      "city": "Manhattan",
+      "zipcode":10002,
+      "coordinates": {
+        "latitude": 40.71878414177176, 
+        "longitude": -73.99306543183944
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-C103-A05EB51760E5",
       "name": "Vesuvio Playground",
-      "address": "Spring & Thompson streets"
+      "address": "Spring & Thompson streets",
+      "city": "Manhattan",
+      "zipcode":10012,
+      "coordinates": {
+        "latitude": 40.72544757156163, 
+        "longitude": -74.00270673096557
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-D14B-4F599A6361DA",
       "name": "Bayside Fields",
-      "address": "204 Street & 29 Avenue, Clearview Expressway"
+      "address": "204 Street & 29 Avenue, Clearview Expressway",
+      "city": "Queens",
+      "zipcode":11360,
+      "coordinates": {
+        "latitude": 40.77302145210859, 
+        "longitude": -73.78505618386363
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-9BEA-07D1C878A6E0",
-      "name": "Cunningham Park (HQ8)",
-      "address": "South of Union Turnpike, between Francis Lewis Boulevard & 193rd Street"
+      "name": "Cunningham Park Tennis House Public Restroom",
+      "address": "19600 Union Tpke",
+      "city": "Queens",
+      "zipcode":11366,
+      "coordinates": {
+        "latitude": 40.72964271680023, 
+        "longitude": -73.77363322015626
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-8BA0-465110B46E78",
       "name": "Flushing Meadows Corona Park (Passerelle)",
-      "address": "Unisphere Fountain to pool, at Meridian Road"
+      "address": "Unisphere Fountain to pool, at Meridian Road",
+      "city": "Queens",
+      "zipcode":11366,
+      "coordinates": {
+        "latitude": 40.72964271680023, 
+        "longitude": -73.77363322015626
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-C289-D0389C001CBD",
       "name": "Flushing Meadows Corona Park (Playground for All Children) ",
-      "address": "111 Street and Corona Avenue"
+      "address": "111 Street and Corona Avenue",
+      "city": "Queens",
+      "zipcode":11101,
+      "coordinates": {
+        "latitude": 40.74189435942147, 
+        "longitude": -73.84803129177656
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-824E-9762F64F9E6E",
-      "name": "Flushing Meadows Corona Park (Zoo, Ballfields)",
-      "address": "Grand Central Parkway to 111th Street to Heckscher Children Farm to Playground for All Children"
+      "name": "Flushing Meadows Corona Park (Triassic Playground)",
+      "address": "Jewel Ave. &, Van Wyck Expy, Flushing",
+      "city": "Queens",
+      "zipcode":11368,
+      "coordinates": {
+        "latitude": 40.7299977634337, 
+        "longitude": -73.83510237426218
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-3926-C60A708A0904",
-      "name": "Juniper Valley Park",
-      "address": "Lutheran Avenue; North and South Juniper boulevards; and the pathway from 76th Street on north end to 75th Street on south end"
+      "name": "Juniper Valley Park Playground",
+      "address": "Lutheran Avenue; North and South Juniper boulevards; and the pathway from 76th Street on north end to 75th Street on south end",
+      "city": "Queens",
+      "zipcode":11379,
+      "coordinates": {
+        "latitude": 40.720686899379345, 
+        "longitude": -73.87743343564662
+      },
+      "image": ""
     },
+    {
+        "id": "00000000-0000-0000-3926-C60A708A0944",
+        "name": "Juniper Valley Park",
+        "address": "Juniper Valley Park 71st Street &, Lutheran Ave, Middle Village, NY ",
+        "city": "Queens",
+        "zipcode":11379,
+        "coordinates": {
+          "latitude": 40.71879632845271, 
+          "longitude": -73.8846646710016
+        },
+        "image": ""
+      },
     {
       "id": "00000000-0000-0000-37C6-3E1E06DEE336",
       "name": "Lawerence Virgilio Playground",
-      "address": "39 Drive & 54 Street"
+      "address": "1 39th Drive ",
+      "city": "Queens",
+      "zipcode":11377,
+      "coordinates": {
+        "latitude": 40.747470504569435, 
+        "longitude": -73.91059106638015
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-9293-D64086384BEF",
       "name": "Michaelis-Bayswater Park",
-      "address": "Beach Channel Drive, B 32 Street, Dwight Avenue, Norton Avenue"
+      "address": "Beach Channel Drive, B 32 Street, Dwight Avenue, Norton Avenue",
+      "city": "Queens",
+      "zipcode":11691,
+      "coordinates": {
+        "latitude": 40.598809449983065, 
+        "longitude": -73.76748616506886
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-0D0A-7D4A50F72229",
       "name": "Arrochar Playground",
-      "address": "Sand Lane, Major Avenue, McFarland Avenue"
-    },
-    {
-      "id": "00000000-0000-0000-56A2-FF5E3915FE79",
-      "name": "Blood Root Valley (Greenbelt Nature Center)",
-      "address": "Rockland, Manor and Brielle avenues, Forest Hill Road"
-    },
-    {
-      "id": "00000000-0000-0000-4923-A7837836B372",
-      "name": "Blood Root Valley (Park House)",
-      "address": "Rockland, Manor and Brielle avenues, Forest Hill Road"
+      "address": "Sand Lane, Major Avenue, McFarland Avenue",
+      "city": "Staten Island",
+      "zipcode":10305,
+      "coordinates": {
+        "latitude": 40.5978455393537, 
+        "longitude": -74.07123767125164
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-69AC-BD8191D95D0B",
       "name": "Blue Heron Park Preserve (Nature Center)",
-      "address": "Poillon Avenue"
+      "address": "Poillon Avenue",
+      "city": "Staten Island",
+      "zipcode":10312,
+      "coordinates": {
+        "latitude": 40.530906466685224, 
+        "longitude": -74.17767793773734
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-F27A-2926828353B1",
       "name": "Corporal Thompson Park/West Brighton Pool",
-      "address": "Broadway, Henderson Avenue"
-    },
-    {
-      "id": "00000000-0000-0000-CC1B-F143ED785CBE",
-      "name": "Double Nickel Playground",
-      "address": "Osborne Street and Preston Avenue"
+      "address": "Broadway, Henderson Avenue",
+      "city": "Staten Island",
+      "zipcode":10312,
+      "coordinates": {
+        "latitude": 40.530906466685224, 
+        "longitude": -74.17767793773734
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-C747-38D91444FF0E",
       "name": "Grandview Playground",
-      "address": "Grandview Avenue, Continental Place"
+      "address": "Grandview Avenue, Continental Place",
+      "city": "Staten Island",
+      "zipcode":10303,
+      "coordinates": {
+        "latitude": 40.63096193028632, 
+        "longitude": -74.16504419197703
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-FA9C-07B7029AC7A7",
       "name": "High Rock Park (McArthur Park)",
-      "address": "Richmond Parkway & Moravian Cemetery at Rockland Avenue"
+      "address": "Richmond Parkway & Moravian Cemetery at Rockland Avenue",
+      "city": "Staten Island",
+      "zipcode":10306,
+      "coordinates": {
+        "latitude": 40.58304473623668, 
+        "longitude": -74.12358041299329 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-55E1-2C9A134F8B71",
-      "name": "Joline Pool Playground (Modular Equipment)",
-      "address": "Joline Avenue, Hylan Boulevard"
+      "name": "Joline Pool Playground Bathroom",
+      "address": "Joline Avenue, Hylan Boulevard",
+      "city": "Staten Island",
+      "zipcode":10307,
+      "coordinates": {
+        "latitude": 40.50576049999969,
+        "longitude": -74.23576503001489
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-EB5A-5BA91A3A0D1A",
       "name": "Lyons Pool",
-      "address": "Pier 6, Victory Boulevard"
+      "address": "Pier 6, Victory Boulevard",
+      "city": "Staten Island",
+      "zipcode":10301,
+      "coordinates": {
+        "latitude": 40.637533890967646, 
+        "longitude": -74.0744287098841
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-C4EF-C8F84624DEFB",
       "name": "Markham Playground",
-      "address": "Willowbrook Parkway, Forest Avenue & Houston Street"
+      "address": "Willowbrook Parkway, Forest Avenue & Houston Street",
+      "city": "Staten Island",
+      "zipcode":10302,
+      "coordinates": {
+        "latitude": 40.62306130012687, 
+        "longitude": -74.14632663020221 
+      },
+      "image": ""
     },
     {
       "id": "00000000-0000-0000-A01C-7FAD02B4B697",
-      "name": "Midland Beach & Boardwalk",
-      "address": "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard"
-    },
-    {
-      "id": "00000000-0000-0000-1410-242F2F064167",
-      "name": "Midland Field",
-      "address": "Midland Avenue & Mason Avenue"
-    },
-    {
-      "id": "00000000-0000-0000-8D69-CAA9D536302C",
-      "name": "South Beach (Saturn Playground)",
-      "address": "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard"
-    },
-    {
-      "id": "00000000-0000-0000-EB7A-0D7AF4BDCA54",
-      "name": "Stapleton Playground",
-      "address": "Tompkins Avenue & Broad Street"
-    },
-    {
-      "id": "00000000-0000-0000-A5B7-D60526D4D90D",
-      "name": "Terrace Playground",
-      "address": "Howard Avenue & Martha Street"
-    },
-    {
-      "id": "00000000-0000-0000-4B0F-AF44763ACBA4",
-      "name": "Todt Hill Playground",
-      "address": "Schmidts Lane & Manor Road"
-    },
-    {
-      "id": "00000000-0000-0000-83F4-77EC730C8C1D",
-      "name": "Coney Island",
-      "address": "Brighton 2nd"
-    },
-    {
-      "id": "00000000-0000-0000-56BB-A491EE9587D2",
-      "name": "Coney Island",
-      "address": "W 27 ST."
-    },
-    {
-      "id": "00000000-0000-0000-204E-32328C3E8AB6",
-      "name": "Coney Island",
-      "address": "W 33 St."
-    },
-    {
-      "id": "00000000-0000-0000-9C2A-C62A003C4CEC",
-      "name": "Marine Park Nature Center",
-      "address": "East 33rd Street and Avenue U"
-    },
-    {
-      "id": "00000000-0000-0000-B3FD-84E81CA23BFC",
-      "name": "Bendheim Playground",
-      "address": "100th Street and Fifth Ave"
-    },
-    {
-      "id": "00000000-0000-0000-5D8E-AA01A3150446",
-      "name": "Liberty Pool",
-      "address": "173rd Street and 106th Avenue"
-    },
-    {
-      "id": "00000000-0000-0000-9928-A39BCBBB5692",
-      "name": "Ederle Comfort Station",
-      "address": null
-    },
-    {
-      "id": "00000000-0000-0000-0AF1-39D6619AF4CD",
-      "name": "Rockaway Beach 86 Comfort Station",
-      "address": "Beach 86 Street"
-    },
-    {
-      "id": "00000000-0000-0000-30B6-D8170C1618EF",
-      "name": "Rockaway Beach 97 Comfort Station",
-      "address": "Beach 97 Street"
-    },
-    {
-      "id": "00000000-0000-0000-7D9B-39A5066431F5",
-      "name": "Rockaway Beach 106 Comfort Station",
-      "address": "Beach 106 Street"
-    },
-    {
-      "id": "00000000-0000-0000-7B4C-B6AECECFF1C4",
-      "name": "Rockaway Beach 117th L/G",
-      "address": "Beach 117 Street"
-    },
-    {
-      "id": "00000000-0000-0000-EBD8-F4B1FC8B6F7B",
-      "name": "Bloomingdale Park",
-      "address": "Richmond Pkwy, Bloomingdale Rd., Lenevar Ave"
-    },
-    {
-      "id": "00000000-0000-0000-D663-1D314B73A9A9",
-      "name": "Conference House Park",
-      "address": "Pittsville St,Hylan Blvd.,Surf,Richard Aves"
-    },
-    {
-      "id": "00000000-0000-0000-C3BF-76D2BD60EE2B",
-      "name": "South Beach Wetlands",
-      "address": "Quintard St Bet. Quincy Ave & Father Capodanno Blvd"
+      "name": "Midland Beach Playground",
+      "address": "Greeley Ave &, Father Capodanno Blvd",
+      "zipcode":10306,
+      "coordinates": {
+        "latitude": 40.56838122808753, 
+        "longitude": -74.09071829183078
+      },
+      "image": ""
     }
   ]
+
+  
