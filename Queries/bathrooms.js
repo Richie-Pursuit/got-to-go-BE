@@ -51,10 +51,56 @@ const getBathroomByZipcode = async (zipcode) => {
   }
 };
 
+// CREATE
+const createBathroom = async (bathroom) => {
+  let {name, address, city, zipcode, latitude, longitude, image} = bathroom
+  try {
+    const newBathroom= await db.one(
+      "INSERT INTO bathrooms_table (name, address, city, zipcode, latitude, longitude, image) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *",
+      [name, address, city, zipcode, latitude, longitude, image]
+    );
+    return newBathroom;
+  } catch (error) {
+    return error;
+  }
+};
+
+// DELETE
+const deleteBathroom= async(id)=>{
+  try{
+    const deletedBathroom = await db.one('DELETE FROM bathrooms_table WHERE id=$1 RETURNING *', id)
+    return deletedBathroom
+
+  } catch(error){
+    return error
+  }
+}
+
+// UPDATE
+
+const updateBathroom= async (id, bathroom) => {
+  let {name, address, city, zipcode, latitude, longitude, image} = bathroom
+  try{
+    const updatedBathroom = await db.one(
+    "UPDATE bathrooms_table SET name=$1, address=$2, city=$3, zipcode=$4, latitude=$5, longitude=$6, image=$7 where id=$8 RETURNING *",
+    [name, address, city, zipcode, latitude, longitude, image, id]
+  );
+  return updatedBathroom;
+
+  } catch(error){
+    return error
+  }
+}
+
+
+
 
 module.exports = {
   getAllBathrooms,
   getOneBathroom,
   getBathroomName,
-  getBathroomByZipcode
+  getBathroomByZipcode,
+  createBathroom,
+  deleteBathroom,
+  updateBathroom
 };
