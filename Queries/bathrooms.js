@@ -1,11 +1,29 @@
 
 const db = require('../db/dbConfig');
 
+const defaultImageURL = '../Images-Files/bathroom-default.jpg'; // Set default image URL
+
+const getAllBathroomsPaginated = async (limit, offset) => {
+  try {
+    const allBathrooms = await db.any('SELECT * FROM bathrooms_table LIMIT $1 OFFSET $2', [limit, offset]);
+    const modifiedBathrooms = allBathrooms.map((bathroom) => ({
+      ...bathroom,
+      image: bathroom.image || defaultImageURL,
+    }));
+    return modifiedBathrooms;
+  } catch (error) {
+    throw error;
+  }
+};
 
 const getAllBathrooms = async () => {
   try {
     const allBathrooms = await db.any('SELECT * FROM bathrooms_table');
-    return allBathrooms;
+    const modifiedBathrooms = allBathrooms.map((bathroom) => ({
+      ...bathroom,
+      image: bathroom.image || defaultImageURL,
+    }));
+    return modifiedBathrooms;
   } catch (error) {
     return error;
   }
@@ -54,6 +72,7 @@ const getBathroomByZipcode = async (zipcode) => {
 // CREATE
 const createBathroom = async (bathroom) => {
   let {name, address, city, zipcode, latitude, longitude, image} = bathroom
+
   try {
     const newBathroom= await db.one(
       "INSERT INTO bathrooms_table (name, address, city, zipcode, latitude, longitude, image) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *",
@@ -102,5 +121,6 @@ module.exports = {
   getBathroomByZipcode,
   createBathroom,
   deleteBathroom,
-  updateBathroom
+  updateBathroom,
+  getAllBathroomsPaginated
 };

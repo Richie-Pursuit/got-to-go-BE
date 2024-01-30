@@ -8,21 +8,27 @@ const {
   getBathroomByZipcode,
   createBathroom,
   deleteBathroom,
-  updateBathroom
+  updateBathroom,
+  getAllBathroomsPaginated
   
 } = require('../Queries/bathrooms');
 
 // show all
 
 bathrooms_table.get('/', async (req, res) => {
-    const allBathrooms = await getAllBathrooms();
+  const { page = 1, limit = 10 } = req.query; // Default to page 1 and 10 items per page
+  try {
+    const offset = (page - 1) * limit;
+    const allBathrooms = await getAllBathroomsPaginated(limit, offset);
     if (allBathrooms[0]) {
       res.status(200).json(allBathrooms);
     } else {
       res.status(500).json({ error: 'Unable to get all bathrooms' });
     }
-  });
-
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
   // show by ID
 
   bathrooms_table.get('/:id', async(req, res)=>{
@@ -35,6 +41,8 @@ bathrooms_table.get('/', async (req, res) => {
       res.status(500).json({err: 'unable to get one bathroom'})
     }
   })
+
+
 
   // show by name
 
@@ -65,12 +73,14 @@ bathrooms_table.get('/', async (req, res) => {
   // CREATE
 bathrooms_table.post("/",  async (req, res) => {
   try {
-    const bathroom = await createBathroom(req.body);
-    res.status(200).json(bathroom);
+    const newBathroom = await createBathroom(req.body);
+    res.status(200).json(newBathroom);
   } catch (error) {
     res.status(500).json({ error: error });
   }
 });
+
+
 
 // DELETE
 
