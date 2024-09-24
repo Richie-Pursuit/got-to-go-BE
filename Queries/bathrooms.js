@@ -1,14 +1,12 @@
-
+const cloudinary = require('../cloudinary');
 const db = require('../db/dbConfig');
-
-const defaultImageURL = '../Images-Files/bathroom-default.jpg'; // Set default image URL
 
 const getAllBathroomsPaginated = async (limit, offset) => {
   try {
     const allBathrooms = await db.any('SELECT * FROM bathrooms_table LIMIT $1 OFFSET $2', [limit, offset]);
     const modifiedBathrooms = allBathrooms.map((bathroom) => ({
       ...bathroom,
-      image: bathroom.image || defaultImageURL,
+      image: bathroom.image,
     }));
     return modifiedBathrooms;
   } catch (error) {
@@ -21,25 +19,13 @@ const getAllBathrooms = async () => {
     const allBathrooms = await db.any('SELECT * FROM bathrooms_table');
     const modifiedBathrooms = allBathrooms.map((bathroom) => ({
       ...bathroom,
-      image: bathroom.image || defaultImageURL,
+      image: bathroom.image,
     }));
     return modifiedBathrooms;
   } catch (error) {
     return error;
   }
 };
-
-// const getAllBathrooms = async () => {
-//   try {
-//     const query = 'SELECT * FROM bathrooms_table';
-//     console.log('SQL Query:', query);
-//     const allBathrooms = await db.any(query);
-//     return allBathrooms;
-//   } catch (error) {
-//     console.error('Error:', error);
-//     return error;
-//   }
-// };
 
 
 const getOneBathroom = async (id) => {
@@ -69,20 +55,34 @@ const getBathroomByZipcode = async (zipcode) => {
   }
 };
 
+
+
 // CREATE
 const createBathroom = async (bathroom) => {
-  let {name, address, city, zipcode, latitude, longitude, image} = bathroom
-
+  let { name, address, city, zipcode, latitude, longitude, image } = bathroom;
+console.log(bathroom)
   try {
-    const newBathroom= await db.one(
-      "INSERT INTO bathrooms_table (name, address, city, zipcode, latitude, longitude, image) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *",
-      [name, address, city, zipcode, latitude, longitude, image]
-    );
-    return newBathroom;
+      // Upload image to Cloudinary
+      console.log('this line is running')
+      // const cloudinaryResponse = await cloudinary.uploader.upload(image.path); 
+      // console.log(cloudinaryResponse)
+      // const imageUrl = cloudinaryResponse.secure_url;
+
+      const newBathroom = await db.one(
+          "INSERT INTO bathrooms_table (name, address, city, zipcode, latitude, longitude, image) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *",
+          [name, address, city, zipcode, latitude, longitude, image]
+      );
+        console.log(newBathroom)
+      return newBathroom;
   } catch (error) {
-    return error;
+    console.log(error)
+      return error;
   }
 };
+
+
+
+
 
 // DELETE
 const deleteBathroom= async(id)=>{

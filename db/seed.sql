@@ -1,7 +1,7 @@
 \c bathrooms_dev; 
 
 INSERT INTO bathrooms_table ( name, address, city, zipcode, latitude, longitude, image ) VALUES
-('Arcilla Playground','E 164 St bet. Teller Av and Clay Av at Park Ave ','Bronx',10456,40.82723656932944,-73.91448436133791,''),
+('Arcilla Playground','E 164 St bet. Teller Av and Clay Av at Park Ave','Bronx',10456,40.82723656932944,-73.91448436133791,''),
 ('Basil Behagen Playground','1054 Tinton Ave ','Bronx',10456,40.82615157818566,-73.90134603068796,''),
 ('Belmont Playground Public Restroom','E. 182nd Street & Grote Street','Bronx',10457,40.85100076130007,-73.88774573278832,''),
 ('Capt. Rivera Playground','East 156 Street, Forest Avenue','Bronx',10455,40.81841900093192,-73.906772,''),
@@ -144,10 +144,12 @@ INSERT INTO perks_table( bathrooms_id, accessibility, baby_changing, family_room
 (67, true, false, false, '05:00', '06:00', true),
 (68, true, false, false, '05:00', '06:00', true),
 (69, true, false, false, '05:00', '06:00', true),
-(70, true, false, false, '05:00', '06:00', true)
+(70, true, false, false, '05:00', '06:00', true);
 
 
 
+INSERT INTO image_files (filename, filepath, mimetype, size) VALUES 
+('example.jpg', '/path/to/example.jpg', 'images/jpeg', 1024);
 
 -- psql -U postgres -f db/seed.sql
 

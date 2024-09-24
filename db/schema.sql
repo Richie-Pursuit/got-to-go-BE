@@ -10,21 +10,30 @@ CREATE TABLE bathrooms_table (
   address TEXT,
   city TEXT NOT NULL,
   zipcode NUMERIC,
-  latitude NUMERIC,
-  longitude NUMERIC,
-  image TEXT DEFAULT '../Images-Files/bathroom-default.jpg'
+  latitude NUMERIC DEFAULT 0,
+  longitude NUMERIC DEFAULT 0,
+  image TEXT DEFAULT '../images/bathroom.jpg'
 );
 
 DROP TABLE IF EXISTS perks_table;
 CREATE TABLE perks_table (
   id SERIAL PRIMARY KEY,
   bathrooms_id INTEGER REFERENCES bathrooms_table (id) ON DELETE CASCADE ON UPDATE CASCADE,
-  accessibility BOOLEAN default false, 
-  baby_changing BOOLEAN default false,
-  family_room BOOLEAN default false,
-  open TEXT NOT NULL,
-  close TEXT NOT NULL,
-  is_public BOOLEAN default false
+  accessibility BOOLEAN DEFAULT false, 
+  baby_changing BOOLEAN DEFAULT false,
+  family_room BOOLEAN DEFAULT false,
+  "open" TEXT NOT NULL, -- Enclosed "open" in double quotes to avoid syntax error
+  close TEXT NOT NULL, -- No need to change close as it's not a reserved keyword
+  is_public BOOLEAN DEFAULT false
+);
+
+DROP TABLE IF EXISTS image_files;
+CREATE TABLE image_files(
+    id SERIAL NOT NULL PRIMARY KEY,
+    filename TEXT UNIQUE NOT NULL,
+    filepath TEXT NOT NULL,
+    mimetype TEXT NOT NULL,
+    size BIGINT NOT NULL
 );
 
 

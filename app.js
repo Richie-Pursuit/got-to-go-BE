@@ -5,6 +5,8 @@ const morgan = require('morgan');
 
 const bathroomsController = require("./Controllers/bathroomsController.js");
 const perksController = require("./Controllers/perksController.js");
+const uploadRoute = require("./Controllers/routeUpload.js");
+
 
 // CONFIGURATION
 const app = express();
@@ -20,10 +22,10 @@ app.use((err, req, res, next) => {
 
 
 
-
 // products ROUTES
 app.use("/bathrooms", bathroomsController);
 app.use("/perks", perksController);
+app.use("/image" , uploadRoute);
 
 // ROUTES
 app.get("/", (req, res) => {

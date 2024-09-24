@@ -1,5 +1,8 @@
 const express = require('express');
+const cloudinary = require('../cloudinary');
+const upload = require("../middleware/multer");
 const bathrooms_table  = express.Router();
+
 
 const {
   getAllBathrooms,
@@ -16,11 +19,9 @@ const {
 // show all
 
 bathrooms_table.get('/', async (req, res) => {
-  const { page = 1, limit = 10 } = req.query; // Default to page 1 and 10 items per page
   try {
-    const offset = (page - 1) * limit;
-    const allBathrooms = await getAllBathroomsPaginated(limit, offset);
-    if (allBathrooms[0]) {
+    const allBathrooms = await getAllBathrooms();
+    if (allBathrooms.length > 0) {
       res.status(200).json(allBathrooms);
     } else {
       res.status(500).json({ error: 'Unable to get all bathrooms' });
@@ -29,6 +30,7 @@ bathrooms_table.get('/', async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+
   // show by ID
 
   bathrooms_table.get('/:id', async(req, res)=>{
@@ -70,13 +72,26 @@ bathrooms_table.get('/', async (req, res) => {
     }
   })
 
-  // CREATE
-bathrooms_table.post("/",  async (req, res) => {
+// CREATE
+bathrooms_table.post("/", upload.single("image"), async (req, res) => {
   try {
-    const newBathroom = await createBathroom(req.body);
-    res.status(200).json(newBathroom);
+      // Upload image to Cloudinary
+      console.log(req.file)
+      const result = await cloudinary.uploader.upload(req.file.path);
+      // console.log(result);
+      // Take secure_url from Cloudinary response
+      const imagePath = result.secure_url;
+      debugger
+      // Create new bathroom with the image URL
+      const newBathroom = await createBathroom({
+          ...req.body,
+          image: imagePath,
+      });
+      
+      res.status(200).json(newBathroom);
   } catch (error) {
-    res.status(500).json({ error: error });
+      console.error("Error:", error);
+      res.status(500).json({ error: error.message });
   }
 });
 
@@ -105,9 +120,6 @@ bathrooms_table.put("/:id", async (req, res) => {
       res.status(404).json({error: 'bathroom not found'})
     }
 });
-
-
-
 
   
   
