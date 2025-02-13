@@ -1,6 +1,7 @@
 DROP DATABASE IF EXISTS bathrooms_dev;
 CREATE DATABASE bathrooms_dev;
-\c bathrooms_dev;
+
+USE bathrooms_dev;
 
 DROP TABLE IF EXISTS bathrooms_table;
 
@@ -22,8 +23,8 @@ CREATE TABLE perks_table (
   accessibility BOOLEAN DEFAULT false, 
   baby_changing BOOLEAN DEFAULT false,
   family_room BOOLEAN DEFAULT false,
-  "open" TEXT NOT NULL, -- Enclosed "open" in double quotes to avoid syntax error
-  close TEXT NOT NULL, -- No need to change close as it's not a reserved keyword
+  "open" TEXT NOT NULL,
+  "close" TEXT NOT NULL,
   is_public BOOLEAN DEFAULT false
 );
 
