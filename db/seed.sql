@@ -1,4 +1,4 @@
-\c bathrooms_dev; 
+USE bathrooms_dev;
 
 INSERT INTO bathrooms_table ( name, address, city, zipcode, latitude, longitude, image ) VALUES
 ('Arcilla Playground','E 164 St bet. Teller Av and Clay Av at Park Ave','Bronx',10456,40.82723656932944,-73.91448436133791,''),
@@ -74,7 +74,7 @@ INSERT INTO bathrooms_table ( name, address, city, zipcode, latitude, longitude,
 ('Markham Playground','Willowbrook Parkway, Forest Avenue & Houston Street','Staten Island',10302,40.62306130012687,-74.14632663020221,''),
 ('Midland Beach Playground','Greeley Ave &, Father Capodanno Blvd','Staten Island',10306,40.56838122808753,-74.09071829183078,'');
 
-INSERT INTO perks_table( bathrooms_id, accessibility, baby_changing, family_room, open,close, is_public ) VALUES
+INSERT INTO perks_table( bathrooms_id, accessibility, baby_changing, family_room, "open", "close", is_public ) VALUES
 (1, true, false, false, '05:00', '06:00', true),
 (2, true, false, false, '05:00', '06:00', true),
 (3, true, false, false, '05:00', '06:00', true),
@@ -151,8 +151,12 @@ INSERT INTO perks_table( bathrooms_id, accessibility, baby_changing, family_room
 INSERT INTO image_files (filename, filepath, mimetype, size) VALUES 
 ('example.jpg', '/path/to/example.jpg', 'images/jpeg', 1024);
 
+
+
+
 -- psql -U postgres -f db/seed.sql
 
 -- psql -U postgres -d bathrooms_dev -h localhost -p 5432
 -- \d bathrooms_table
 -- SELECT * FROM bathrooms_table;
+
